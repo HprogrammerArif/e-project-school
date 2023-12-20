@@ -1,0 +1,173 @@
+*{
+  font-family: Roboto, sans-serif;
+}
+.whole-page {
+  background-color: rgb(240, 255, 240);
+  margin-bottom: 20px;
+  padding-bottom: 80px;
+}
+.row-logo-nev{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.logo-section img{
+  width: 140px;
+}
+.logo-section{
+  margin: 10px;
+}
+.row{
+  padding-top: 20px;
+}
+.nev-setup ul li {
+  list-style: none;
+}
+.nev-setup ul li {
+  margin: 10px;
+}
+.nev-setup ul li a{
+  text-decoration: none;
+  color: black;
+}
+.nev-setup ul li:hover a{
+  color: #fff;
+}
+
+.nev-setup ul li:hover{
+  background: green;
+  border-radius: 5px;
+  
+}
+.sub-menu-1{
+  display: none;
+}
+.nev-setup ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(2, 112, 2);
+  
+  margin-left: -15px;
+}
+.nev-setup ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+}
+.nev-setup ul li:hover .sub-menu-1 ul li{
+  width: 150px;
+  
+  border-bottom: 1px dotted #faf5f5;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.nev-setup ul li:hover .sub-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+.nev-setup ul li:hover .sub-menu-1 ul li:hover a{
+  color: #b2ff00;
+}
+.sub-menu-2 {
+  display: none;
+}
+.hover-me:hover .sub-menu-2{
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 150px;
+  background-color: rgb(0, 100, 0);
+}
+.illastration img{
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.illastration{
+  padding: 0px 15px;
+  margin: 0px 15px;
+}
+.buy-now-button button{
+  border: none;
+  background-color: rgb(0, 105, 56);
+  color: #fff;
+  margin: 10px 0px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.redy-red{
+  color: red;
+}
+.schedule-text{
+  color: rgb(49, 197, 101);
+}
+#row-tex-setup .col-md-5{
+  margin-top: 25px;
+  padding-top: 25px;
+}
+.card{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin:5px;
+  padding: 30px;
+}
+.card img{
+  padding: 10px 60px;
+}
+.card-body{
+  text-align: center;
+}
+.card-3, .card-2{
+  box-shadow: none;
+  border: none;
+}
+.course-heading{
+  margin: 60px;
+  text-align: center;
+  color: rgb(76, 0, 76);
+}
+.card-footer {
+  border: none;
+  
+}
+#card-footer-set{
+  background: none;
+}
+#buy-now-button-footer{
+  text-align: left;
+}
+.testimonial-man img{
+  width: 100px;
+}
+.testimonial-man-setting{
+  margin: 100px;
+  padding: 0px 110px;
+}
+.testimonial-man{
+  padding-right: 30px;
+}
+.footter-panel1{
+  display:flex;
+  flex-direction: column;
+}
+.whole-footer-page{
+  background-color: rgb(26, 27, 27);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.course-heading-2{
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+}
+.footter-panel1 p{
+  color: #fff;
+}
+.footter-panel1 a{
+  color: #fff;
+  text-decoration: none;
+}
+.copyright{
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  color: #fff;
+}
